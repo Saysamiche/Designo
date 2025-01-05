@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+  background-color: red;
+  color: white;
+  border-radius: 15px;
+}
+.emoji {
+  font-size: 160px;
+}
+.apologytext {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.todo {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.links {
+  margin: 0;
+  text-decoration: underline;
+  width: 100%;
+  height: fit-content;
+  padding: 15px;
+}
+
+@media (max-width: 905px) {
+  .container {
+    margin-bottom: 260px;
+  }
+}
+@media (max-width: 585px) {
+  .container {
+    width: 100%;
+  }
+  .todo {
+    font-size: 25px;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 410px) {
+  .apologytext {
+    font-size: 30px;
+  }
+  .todo {
+    font-size: 18px;
+  }
+}
