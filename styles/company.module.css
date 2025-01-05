@@ -18,10 +18,12 @@
   margin: 120px 0 50px 0;
   padding-left: 90px;
   font-size: 45px;
+  width: 100%;
 }
 .about p {
   padding: 10px 50px 20px 90px;
   font-size: 18px;
+  width: 100%;
 }
 .aboutimg {
   border-radius: 0 15px 15px 0;
@@ -50,10 +52,12 @@
   color: #f17f66;
   padding: 160px 20px 20px 90px;
   font-size: 45px;
+  width: 100%;
 }
 .worldtalent p {
   padding: 20px 90px 20px 90px;
   font-size: 18px;
+  width: 100%;
 }
 
 .alllocation {
@@ -100,6 +104,7 @@
 }
 .real {
   border-radius: 15px 0 0 15px;
+  width: 100%;
 }
 .realimg {
   border-radius: 0 15px 15px 0;
@@ -148,7 +153,7 @@
     padding-left: 0;
   }
   .worldtalent h2 {
-    padding-top: 60px;
+    padding-top: 45px;
     text-align: center;
     font-size: 45px;
     margin-top: -40px;
@@ -158,6 +163,9 @@
   .about p,
   .worldtalent p {
     padding: 10px auto;
+  }
+  .worldtalent p {
+    padding-top: 0;
   }
   .aboutimg,
   .talentimg,
@@ -206,7 +214,7 @@
   .worldtalent h2 {
     font-size: 25px;
     margin-top: -10px;
-    padding-top: 20px;
+    padding-top: 15px;
   }
 
   .about p,
