@@ -1,0 +1,128 @@
+.contact {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.contactaust {
+  flex-direction: row-reverse;
+}
+.container {
+  padding: 90px 50px 60px 90px;
+  width: 683px;
+  height: 325px;
+  background-color: #fdf3f0;
+  background-image: url(/bg-pattern-intro-web.b8740d39.svg);
+  background-position: top 33px right 100px;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+.container h2 {
+  margin-bottom: 40px;
+  font-size: 45px;
+  width: 80%;
+  color: #fc9d88;
+}
+.address {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: space-between;
+}
+.address p {
+  margin: 10px auto;
+}
+.image {
+  border-radius: 15px;
+}
+@media (max-width: 1229px) {
+  .contact {
+    margin-bottom: 20px;
+    justify-content: space-between;
+  }
+  .image {
+    width: 80%;
+    height: 325px;
+  }
+  .container {
+    padding: 30px;
+    width: 80%;
+    margin: 0px;
+  }
+  .container h2 {
+    padding: 5px;
+    font-size: 30px;
+    width: 100%;
+  }
+  .address {
+    width: 100%;
+  }
+  .address p {
+    padding: 5px 0;
+  }
+}
+
+@media (max-width: 930px) {
+  .main {
+    margin-bottom: 250px;
+  }
+  .contact {
+    flex-direction: column-reverse;
+  }
+  .image {
+    width: 100%;
+    height: 325px;
+    margin-bottom: 30px;
+  }
+  .container {
+    width: 100%;
+    height: 325px;
+  }
+}
+
+@media (max-width: 764px) {
+  .main {
+    margin-bottom: 250px;
+  }
+  .container {
+    flex-direction: column;
+    width: 100%;
+    padding: 0px;
+  }
+  .container h2 {
+    flex-direction: column;
+    margin: 20px 100px;
+    font-size: 35px;
+    width: 100%;
+  }
+  .address {
+    margin: 10px 100px;
+    flex-direction: column;
+    width: 100%;
+  }
+  .address p {
+    margin: 10px auto;
+  }
+  .location {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 495px) {
+  .contact {
+    width: 100%;
+  }
+  .container {
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .container h2 {
+    margin: 20px 70px;
+    font-size: 28px;
+  }
+  .address {
+    margin: 10px 70px;
+  }
+}

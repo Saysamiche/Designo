@@ -1,0 +1,341 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  max-width: 1440px;
+  margin: 20px 140px 140px 140px;
+  position: relative;
+}
+.awardtext {
+  background-image: url(/bg-pattern-intro-web.b8740d39.svg);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 2300px;
+  background-color: #fc9d88;
+  border-radius: 15px;
+  height: 700px;
+  color: #ffffff;
+}
+.awardtext h2 {
+  width: 55%;
+  margin: 120px 0 30px 0;
+  padding: 0 40px 0 90px;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 45px;
+  text-align: center;
+}
+
+.awardtext p {
+  text-align: center;
+  width: 55%;
+  font-weight: 500;
+  padding: 10px 50px 20px 90px;
+  margin-bottom: 40px;
+  font-size: 18px;
+  line-height: 30px;
+}
+.awardlink {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 20px 30px;
+  background-color: #ffffff;
+  color: #000;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 90px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+.awardlink:hover {
+  background-color: #f8cabd;
+  color: #ffffff;
+}
+
+.awardimg {
+  position: absolute;
+  right: -90px;
+  top: -45px;
+}
+
+.designcontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+  height: fit-content;
+  max-width: 1440px;
+  margin: 0 auto;
+  cursor: pointer;
+  position: relative;
+}
+/* .webcontainer,
+.appgraphics {
+  width: 80%;
+} */
+
+.webdesign {
+  width: 507px;
+  height: 640px;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 45px;
+  transition: transform 0.3s ease-in-out;
+  background-image: url(/image-web-design.jpg);
+  margin-bottom: 100px;
+}
+
+.appdesign,
+.graphicdesign {
+  width: 510px;
+  height: 310px;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 25px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.webdesign:hover,
+.appdesign:hover,
+.graphicdesign:hover {
+  transform: scale(1.1);
+}
+
+.appdesign {
+  background-image: url(/image-7.avif);
+}
+.graphicdesign {
+  background-image: url(/image-8.avif);
+  margin-bottom: 100px;
+}
+
+.designlink {
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+}
+
+.designlink h3 {
+  padding-top: 115px;
+  font-size: 30px;
+  letter-spacing: 5px;
+}
+
+.designlink .webdesignhead {
+  padding-top: 280px;
+}
+
+.designlink p {
+  margin-top: 25px;
+  letter-spacing: 5px;
+}
+
+.span {
+  color: #fc9d88;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.allactivities {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  max-width: 1440x;
+  margin: 40px 140px 140px 140px;
+  text-align: center;
+}
+.activity {
+  width: 30%;
+  height: 462px;
+}
+.persons {
+  width: 202px;
+  height: 202px;
+  background-color: #d8dbf0;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.activity h3 {
+  text-transform: uppercase;
+  margin: 40px auto;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.activity p {
+  padding: 5px;
+  line-height: 25px;
+  text-align: center;
+  font-size: 16px;
+}
+
+@media (max-width: 1329px) {
+  .main {
+    margin-bottom: 50px;
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .designcontainer {
+    width: 85%;
+    height: 640px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .webdesign {
+    width: 367px;
+    height: 539px;
+    border-radius: 85px;
+    margin: 0px auto;
+  }
+  .appdesign,
+  .graphicdesign {
+    width: 367px;
+    height: 238px;
+  }
+  .designlink h3 {
+    padding-top: 85px;
+  }
+
+  .designlink .webdesignhead {
+    padding-top: 220px;
+  }
+
+  .designlink p {
+    margin-top: 15px;
+  }
+  .allactivities {
+    margin-top: 50px;
+    width: 85%;
+    margin: 0 auto;
+  }
+  .appdesign {
+    margin-top: 0px;
+  }
+
+  .graphicdesign {
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 921px) {
+  .main {
+    width: 100%;
+  }
+  .awardtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1100px;
+  }
+  .awardtext h2,
+  .awardtext p {
+    width: 88%;
+    margin: 30px auto;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    height: fit-content;
+  }
+  .awardimg {
+    right: 10%;
+    top: 32%;
+  }
+  .awardlink {
+    margin: 20px 0 60px 0;
+  }
+}
+@media (max-width: 912px) {
+  .awardimg {
+    left: 12%;
+  }
+  .designcontainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-top: 30px;
+    width: 100%;
+    height: 1100px;
+  }
+  .webcontainer,
+  .appgraphics {
+    width: 100%;
+  }
+  .webcontainer {
+    margin-bottom: -30px;
+  }
+  .webdesign {
+    border-radius: 25px;
+  }
+  .webdesign,
+  .appdesign,
+  .graphicdesign {
+    background-size: cover;
+    background-color: rgb(53, 53, 53);
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .designlink h3 {
+    padding-top: 80px;
+  }
+
+  .designlink .webdesignhead {
+    padding-top: 80px;
+  }
+  .designlink p {
+    margin-top: 35px;
+    font-weight: 700;
+  }
+  .span {
+    font-weight: 900;
+  }
+  .allactivities {
+    margin-bottom: 280px;
+  }
+}
+
+@media (max-width: 754px) {
+  .awardtext h2 {
+    font-size: 34px;
+  }
+  .allactivities {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .activity {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  @media (max-width: 540px) {
+    .awardimg {
+      left: -10%;
+    }
+  }
+  @media (max-width: 500px) {
+    .awardimg {
+      left: -25%;
+    }
+  }
+}
+@media (max-width: 390px) {
+  .awardtext {
+    height: 1130px;
+  }
+  .awardimg {
+    top: 33%;
+    left: -34.5%;
+  }
+}
+@media (max-width: 360px) {
+  .awardimg {
+    left: -39%;
+  }
+}

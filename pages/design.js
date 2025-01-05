@@ -1,23 +1,16 @@
-import Head from "next/head";
+import styles from "@/styles/design.module.css";
 import Image from "next/image";
-import styles from "@/styles/Home.module.css";
 import Link from "next/link";
 
-export default function Home() {
+const design = () => {
   return (
     <>
-      <Head>
-        <title>Home page</title>
-        <meta name="Designo" content="Designo Home page" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <main className={styles.main}>
         <div className={styles.web}>
-          <h2>Web Design</h2>
+          <h2>App Design</h2>
           <p>
-            We build websites that serve as powerful marketing tools and bring
-            memorable brand experiences.
+            Our mobile designs bring intuitive digital solutions to your
+            customers right at their fingertips.
           </p>
         </div>
       </main>
@@ -26,29 +19,16 @@ export default function Home() {
         <div className={styles.container}>
           <Image
             className={styles.image}
-            src="/image-1.avif"
-            width={330}
-            height={285}
-            alt="image for Express"
+            src="/Air filter.avif"
+            width={326}
+            height={298}
+            alt="Air filter"
           />
           <div className={styles.text}>
-            <h3>EXPRESS</h3>
-            <p>A multi-carrier shipping website for ecommerce businesses</p>
-          </div>
-        </div>
-
-        <div className={styles.container}>
-          <Image
-            className={styles.image}
-            src="/image-2.avif"
-            width={330}
-            height={285}
-            alt="image for Transfer"
-          />
-          <div className={styles.text}>
-            <h3>TRANSFER</h3>
+            <h3>AIR FILTER</h3>
             <p>
-              Site for low-cost money transfers and sending money within seconds
+              Solving the problem of poor indoor air quality by filtering the
+              air
             </p>
           </div>
         </div>
@@ -56,16 +36,32 @@ export default function Home() {
         <div className={styles.container}>
           <Image
             className={styles.image}
-            src="/image-3.avif"
-            width={330}
-            height={285}
-            alt="image for Photon"
+            src="/Eye cam.avif"
+            width={326}
+            height={298}
+            alt="Eye Cam"
           />
           <div className={styles.text}>
-            <h3>PHOTON</h3>
+            <h3>EYECAM</h3>
             <p>
-              A state-of-the-art music player with high-resolution audio and DSP
-              effects
+              Product that lets you edit your favorite photos and videos at any
+              time
+            </p>
+          </div>
+        </div>
+
+        <div className={styles.container}>
+          <Image
+            className={styles.image}
+            src="/Face it.avif"
+            width={326}
+            height={298}
+            alt="Face it"
+          />
+          <div className={styles.text}>
+            <h3>FACEIT</h3>
+            <p>
+              Get to meet your favorite internet superstar with the faceit app
             </p>
           </div>
         </div>
@@ -75,39 +71,37 @@ export default function Home() {
         <div className={styles.container}>
           <Image
             className={styles.image}
-            src="/image-4.avif"
-            width={330}
-            height={285}
-            alt="image for Builder"
+            src="/Todo.avif"
+            width={326}
+            height={298}
+            alt="To do"
           />
           <div className={styles.text}>
-            <h3>BUILDER</h3>
-            <p>Connects users with local contractors based on their location</p>
+            <h3>TODO</h3>
+            <p>A todo app that features cloud sync with light and dark mode</p>
           </div>
         </div>
 
         <div className={styles.container}>
           <Image
             className={styles.image}
-            src="/image-5.avif"
-            width={330}
-            height={285}
+            src="/Loopstudio.avif"
+            width={326}
+            height={298}
             alt="image for Blogr"
           />
           <div className={styles.text}>
-            <h3> BLOGR</h3>
-            <p>
-              Blogr is a platform for creating an online blog or publication
-            </p>
+            <h3> LOOPSTUDIOS</h3>
+            <p>A VR experience app made for Loopstudios</p>
           </div>
         </div>
 
-        <div className={styles.container}>
+        <div className={`${styles.container} ${styles.hidden}`}>
           <Image
             className={styles.image}
             src="/image-6.avif"
-            width={330}
-            height={285}
+            width={326}
+            height={298}
             alt="image for camp"
           />
           <div className={styles.text}>
@@ -121,8 +115,8 @@ export default function Home() {
 
       <section className={styles.designcontainer}>
         <div className={styles.appdesign}>
-          <Link className={styles.designlink} href="/design">
-            <h3>APP DESIGN</h3>
+          <Link className={styles.designlink} href="/">
+            <h3>WEB DESIGN</h3>
             <p>
               VIEW PROJECTS <span className={styles.span}> {">"} </span>
             </p>
@@ -140,4 +134,6 @@ export default function Home() {
       </section>
     </>
   );
-}
+};
+
+export default design;

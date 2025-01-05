@@ -1,0 +1,234 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  max-width: 1440px;
+  margin: 20px 140px 140px 140px;
+}
+.about {
+  width: 587px;
+  height: 480px;
+  flex-wrap: wrap;
+  background-color: #fc9d88;
+  border-radius: 15px 0 0 15px;
+  color: #fff;
+}
+.about h2 {
+  margin: 120px 0 50px 0;
+  padding-left: 90px;
+  font-size: 45px;
+}
+.about p {
+  padding: 10px 50px 20px 90px;
+  font-size: 18px;
+}
+.aboutimg {
+  border-radius: 0 15px 15px 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  max-width: 1440px;
+  margin: 20px 140px 140px 140px;
+}
+.talentimg {
+  border-radius: 15px 0 0 15px;
+}
+.worldtalent {
+  width: 587px;
+  height: 640px;
+  border-radius: 0 15px 15px 0;
+  background-color: #fdf3f0;
+  background-image: url(/bg-pattern-intro-web.b8740d39.svg);
+  background-position: bottom right 250px;
+  background-repeat: no-repeat;
+}
+.worldtalent h2 {
+  color: #f17f66;
+  padding: 160px 20px 20px 90px;
+  font-size: 45px;
+}
+.worldtalent p {
+  padding: 20px 90px 20px 90px;
+  font-size: 18px;
+}
+
+.alllocation {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  max-width: 1440x;
+  margin: 40px 140px 140px 140px;
+}
+.cities {
+  width: 202px;
+  height: 362px;
+  text-align: center;
+}
+.location {
+  width: 202px;
+  height: 202px;
+  background-color: #fdf3f0;
+  border-radius: 50%;
+}
+.cities h3 {
+  text-transform: uppercase;
+  margin: 40px auto;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.link {
+  width: 120px;
+  height: 50px;
+  background-color: #f17f66;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.link:hover {
+  background-color: #f7cfc4;
+}
+.flip {
+  margin-bottom: 140px;
+}
+.real {
+  border-radius: 15px 0 0 15px;
+}
+.realimg {
+  border-radius: 0 15px 15px 0;
+}
+
+@media (max-width: 1200px) {
+  .about h2 {
+    margin: 70px 0px 30px 0px;
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  .about p {
+    padding: 10px 30px 10px 50px;
+  }
+  .aboutimg,
+  .talentimg,
+  .realimg {
+    width: 350px;
+  }
+  .worldtalent h2 {
+    padding: 80px 20px 20px 50px;
+    font-size: 30px;
+  }
+  .worldtalent p {
+    padding: 10px 20px 10px 50px;
+  }
+}
+
+@media (max-width: 927px) {
+  .main {
+    width: 100%;
+    flex-direction: column-reverse;
+    margin: 0 0 100px 0;
+  }
+  .about,
+  .worldtalent,
+  .real {
+    width: 587px;
+    height: 330px;
+    border-radius: 0 0 15px 15px;
+  }
+  .about h2 {
+    text-align: center;
+    font-size: 45px;
+    margin: 30px auto;
+    padding-left: 0;
+  }
+  .worldtalent h2 {
+    padding-top: 60px;
+    text-align: center;
+    font-size: 45px;
+    margin-top: -40px;
+    padding-left: 0;
+  }
+
+  .about p,
+  .worldtalent p {
+    padding: 10px auto;
+  }
+  .aboutimg,
+  .talentimg,
+  .realimg {
+    border-radius: 15px 15px 0 0;
+    height: 330px;
+    width: 587px;
+  }
+  .container {
+    flex-direction: column;
+    width: 100%;
+    margin: 0 0 100px 0;
+  }
+  .flip {
+    flex-direction: column-reverse;
+    width: 100%;
+    margin: 0 0 100px 0;
+  }
+  .alllocation {
+    display: block;
+    width: 25%;
+    text-align: center;
+    margin: 40px auto;
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 585px) {
+  .main,
+  .container,
+  .flip {
+    margin: 0 0 60px 0;
+  }
+
+  .about,
+  .worldtalent,
+  .real {
+    width: 409px;
+    height: 230px;
+  }
+
+  .about h2 {
+    font-size: 25px;
+    margin: 10px auto;
+  }
+
+  .worldtalent h2 {
+    font-size: 25px;
+    margin-top: -10px;
+    padding-top: 20px;
+  }
+
+  .about p,
+  .worldtalent p,
+  .real p {
+    font-size: 12px;
+    margin: 0;
+    padding: 0px 40px;
+  }
+
+  .aboutimg,
+  .talentimg,
+  .realimg {
+    width: 409px;
+    height: 230px;
+  }
+
+  .alllocation {
+    display: block;
+    width: 40%;
+    text-align: center;
+    margin: 40px auto;
+    margin-bottom: 60px;
+  }
+}

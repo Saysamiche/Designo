@@ -42,12 +42,17 @@
   background-color: #fdf3f0;
   border-radius: 15px;
   transition: transform 0.3s ease;
+  width: 326px;
 }
 .container:hover {
   transform: scale(1.1);
   background-color: #fc9d88;
   color: #ffffff;
 }
+.hidden {
+  visibility: hidden;
+}
+
 .image {
   border-radius: 15px 15px 0 0;
   background-color: transparent;
@@ -80,24 +85,24 @@
   position: relative;
 }
 /* .appdesign::before,
-.graphicdesign::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: inherit;
-  height: inherit;
-  background-color: rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s ease;
-  border-radius: 25px;
-} */
+  .graphicdesign::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: inherit;
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    border-radius: 25px;
+  } */
 
 /* .appdesign:hover::before {
-  background-color: rgba(252, 157, 136, 0.5);
-}
-.graphicdesign:hover::before {
-  background-color: rgba(252, 157, 136, 0.5);
-}  */
+    background-color: rgba(252, 157, 136, 0.5);
+  }
+  .graphicdesign:hover::before {
+    background-color: rgba(252, 157, 136, 0.5);
+  }  */
 
 .appdesign,
 .graphicdesign {
@@ -105,21 +110,22 @@
   height: 300px;
   background-position: 100%;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   border-radius: 25px;
   transition: transform 0.3s ease-in-out;
 }
+
 .appdesign:hover,
 .graphicdesign:hover {
   transform: scale(1.1);
 }
 /* .appdesign:hover .appdesign,
-.graphicdesign:hover .graphicdesign {
-  background-color: #fc9d88;
-  color: blue;
-} */
+  .graphicdesign:hover .graphicdesign {
+    background-color: #fc9d88;
+    color: blue;
+  } */
 .appdesign {
-  background-image: url(/image-7.avif);
+  background-image: url(/image-web-design.jpg);
 }
 .graphicdesign {
   background-image: url(/image-8.avif);
@@ -144,7 +150,6 @@
   font-weight: bolder;
   font-size: 20px;
 }
-
 @media (max-width: 1288px) {
   .main {
     margin: 0 auto;
@@ -175,15 +180,14 @@
   }
   .container {
     width: 80%;
-    height: 285px;
     display: flex;
     margin: 40px auto;
   }
   .designcontainer {
     width: 80%;
     margin: 0 auto;
-    margin-top: -70px;
-    margin-bottom: 70px;
+    margin-top: -300px;
+    margin-bottom: 280px;
   }
   .appdesign,
   .graphicdesign {
@@ -199,13 +203,11 @@
     padding: 20px;
     font-size: 18px;
   }
-  .image {
-    width: 330px;
-  }
   .designcontainer {
     flex-direction: column;
     width: 100%;
     margin: 0;
+    margin-top: -340px;
     margin-bottom: 280px;
   }
   .appdesign,
@@ -227,7 +229,7 @@
     font-size: 18px;
   }
 }
-@media (max-width: 618px) {
+@media (max-width: 688px) {
   .main {
     margin: 0 auto;
   }
@@ -240,11 +242,10 @@
     width: 80%;
     display: block;
     margin: 0px auto;
-    margin-bottom: -10px;
+    margin-bottom: -550px;
   }
   .container {
-    width: 329px;
-    height: fit-content;
+    width: 325px;
     display: block;
     margin: 40px auto;
   }
@@ -255,25 +256,10 @@
     width: 330px;
     height: 180px;
   }
-  .designcontainer {
-    margin-bottom: 250px;
-  }
-  .appdesign,
-  .graphicdesign {
-    margin: 10px auto;
-  }
 }
-@media (max-width: 460px) {
+@media (max-width: 400px) {
   .topsection,
   .bottomsection {
     width: 100%;
-  }
-  .designcontainer {
-    width: 100%;
-    margin-bottom: 250px;
-  }
-  .appdesign,
-  .graphicdesign {
-    width: 80%;
   }
 }
