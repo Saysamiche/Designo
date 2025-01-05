@@ -46,7 +46,7 @@ const Footer = () => {
 
         <div className={styles.button}>
           <button>
-            <Link className={styles.btnlink} href="/contact">
+            <Link className={styles.btnlink} href="/contact#contact">
               GET IN TOUCH
             </Link>
           </button>
@@ -55,22 +55,22 @@ const Footer = () => {
 
       <nav className={styles.nav}>
         <div className={styles.linkimage}>
-          <Link href="/award">
+          <Link href="/award#award">
             <Image src="/logo.avif" width={190} height={25} alt="logo" />
           </Link>
         </div>
 
         <div className={styles.linkcontainer}>
-          {/* <Link className={styles.links} href="/">
-            HOME
-          </Link> */}
-          <Link className={`${styles.links} ${styles.comp}`} href="/company">
+          <Link
+            className={`${styles.links} ${styles.comp}`}
+            href="/company#company"
+          >
             OUR COMPANY
           </Link>
-          <Link className={styles.links} href="/locations">
+          <Link className={styles.links} href="/locations#locations">
             LOCATIONS
           </Link>
-          <Link className={styles.links} href="/contact">
+          <Link className={styles.links} href="/contact#contact">
             CONTACT
           </Link>
         </div>
@@ -137,7 +137,7 @@ const Footer = () => {
         <h4>Code challenge designed by SAY &trade; @ 2024</h4>
       </div>
     </footer>
-    
+
     //   )}
 
     //   {pathName === "/contact"}

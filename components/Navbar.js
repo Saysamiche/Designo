@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className={styles.nav}>
       <div className={styles.linkimage}>
-        <Link href="/award">
+        <Link href="/award#award">
           <Image src="/top-logo.avif" width={190} height={25} alt="logo" />
         </Link>
       </div>
@@ -26,13 +26,13 @@ const Navbar = () => {
           isMenuOpen ? styles.menuOpen : ""
         }`}
       >
-        <Link className={styles.links} href="/company">
+        <Link className={styles.links} href="/company#company">
           OUR COMPANY
         </Link>
-        <Link className={styles.links} href="/locations">
+        <Link className={styles.links} href="/locations#locations">
           LOCATIONS
         </Link>
-        <Link className={styles.links} href="/contact">
+        <Link className={styles.links} href="/contact#contact">
           CONTACT
         </Link>
       </div>

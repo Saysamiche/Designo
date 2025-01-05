@@ -6,7 +6,7 @@ const company = () => {
   return (
     <>
       <main className={styles.main}>
-        <div className={styles.about}>
+        <div id="company" className={styles.about}>
           <h2>About Us </h2>
           <p>
             Founded in 2010, we are a creative agency that produces lasting

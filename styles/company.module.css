@@ -212,7 +212,7 @@
   .about p,
   .worldtalent p,
   .real p {
-    font-size: 12px;
+    font-size: 11px;
     margin: 0;
     padding: 0px 40px;
   }
@@ -223,12 +223,19 @@
     width: 409px;
     height: 230px;
   }
-
   .alllocation {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* .alllocation {
     display: block;
     width: 40%;
     text-align: center;
     margin: 40px auto;
     margin-bottom: 60px;
-  }
+  } */
 }

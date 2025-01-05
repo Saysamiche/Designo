@@ -6,7 +6,7 @@ const Award = () => {
   return (
     <>
       <main className={styles.main}>
-        <div className={styles.awardtext}>
+        <div id="award" className={styles.awardtext}>
           <h2>Award-winning custom designs and digital branding solutions </h2>
           <p>
             With over 10 years in the industry, we are experienced in creating

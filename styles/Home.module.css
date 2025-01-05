@@ -191,6 +191,15 @@
     margin: 20px 60px;
   }
 }
+@media (max-width: 912px) {
+  .designlink h3 {
+    margin-top: 100px;
+    font-size: 25px;
+  }
+  .designlink p {
+    margin-top: 10px;
+  }
+}
 @media (max-width: 832px) {
   .text h3 {
     font-size: 25px;
@@ -267,6 +276,13 @@
   .topsection,
   .bottomsection {
     width: 100%;
+  }
+  .designlink h3 {
+    margin-top: 115px;
+    font-size: 25px;
+  }
+  .designlink p {
+    margin-top: 20px;
   }
   .designcontainer {
     width: 100%;

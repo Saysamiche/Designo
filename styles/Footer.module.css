@@ -206,10 +206,11 @@
     height: 730px;
   }
   .preview {
-    width: 80%;
-    margin: 0 50px;
+    width: 100%;
+    margin: 0 auto;
     top: -33%;
   }
+
   .project {
     width: 100%;
     padding: 20px;
@@ -269,15 +270,6 @@
   .contact {
     right: 0;
   }
-  /* .address h3,
-  .address p {
-    margin: 0;
-  }
-
-  .contact h3,
-  .contact p {
-    margin: 0;
-  } */
   .socialmedia {
     display: flex;
     justify-content: center;

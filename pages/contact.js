@@ -6,7 +6,7 @@ const contact = () => {
   return (
     <>
       <section className={styles.preview}>
-        <div className={styles.project}>
+        <div id="contact" className={styles.project}>
           <h3>Contact Us</h3>
           <p>
             Ready to take it to the next level? Let’s talk about your project or

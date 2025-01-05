@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const location = () => {
   return (
-    <main className={styles.main}>
+    <main id="locations" className={styles.main}>
       <section id="canada" className={styles.contact}>
         <div className={styles.container}>
           <h2>Canada</h2>

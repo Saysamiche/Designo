@@ -71,10 +71,6 @@
   cursor: pointer;
   position: relative;
 }
-/* .webcontainer,
-.appgraphics {
-  width: 80%;
-} */
 
 .webdesign {
   width: 507px;
@@ -296,7 +292,7 @@
     font-weight: 900;
   }
   .allactivities {
-    margin-bottom: 280px;
+    margin-bottom: 340px;
   }
 }
 
