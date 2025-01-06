@@ -108,6 +108,10 @@
 .contact p {
   padding: 4px;
 }
+.contact p {
+  color: #8f8f8f;
+  text-decoration: none;
+}
 
 .socialmedia {
   display: flex;
