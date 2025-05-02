@@ -5,7 +5,7 @@ import Link from "next/link";
 const design = () => {
   return (
     <>
-      <main className={styles.main}>
+      <main id="app" className={styles.main}>
         <div className={styles.web}>
           <h2>App Design</h2>
           <p>
@@ -23,6 +23,7 @@ const design = () => {
             width={326}
             height={298}
             alt="Air filter"
+            priority
           />
           <div className={styles.text}>
             <h3>AIR FILTER</h3>
@@ -115,7 +116,7 @@ const design = () => {
 
       <section className={styles.designcontainer}>
         <div className={styles.appdesign}>
-          <Link className={styles.designlink} href="/">
+          <Link className={styles.designlink} href="/#web">
             <h3>WEB DESIGN</h3>
             <p>
               VIEW PROJECTS <span className={styles.span}> {">"} </span>
@@ -124,7 +125,7 @@ const design = () => {
         </div>
 
         <div className={styles.graphicdesign}>
-          <Link className={styles.designlink} href="/graphics">
+          <Link className={styles.designlink} href="/graphics#graphics">
             <h3>GRAPHIC DESIGN</h3>
             <p>
               VIEW PROJECTS <span className={styles.span}> {">"} </span>

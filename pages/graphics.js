@@ -5,7 +5,7 @@ import Link from "next/link";
 const grahics = () => {
   return (
     <>
-      <main className={styles.main}>
+      <main id="graphics" className={styles.main}>
         <div className={styles.web}>
           <h2>Graphic Design</h2>
           <p>
@@ -14,7 +14,6 @@ const grahics = () => {
           </p>
         </div>
       </main>
-      
 
       <section className={styles.topsection}>
         <div className={styles.container}>
@@ -24,6 +23,7 @@ const grahics = () => {
             width={326}
             height={298}
             alt="Tim Brown"
+            priority
           />
           <div className={styles.text}>
             <h3>TIM BROWN</h3>
@@ -62,7 +62,7 @@ const grahics = () => {
 
       <section className={styles.designcontainer}>
         <div className={styles.appdesign}>
-          <Link className={styles.designlink} href="/">
+          <Link className={styles.designlink} href="/#web">
             <h3>WEB DESIGN</h3>
             <p>
               VIEW PROJECTS <span className={styles.span}> {">"} </span>
@@ -71,7 +71,7 @@ const grahics = () => {
         </div>
 
         <div className={styles.graphicdesign}>
-          <Link className={styles.designlink} href="/design">
+          <Link className={styles.designlink} href="/design#app">
             <h3>APP DESIGN</h3>
             <p>
               VIEW PROJECTS <span className={styles.span}> {">"} </span>

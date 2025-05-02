@@ -12,7 +12,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
+
+      <main id="web" className={styles.main}>
         <div className={styles.web}>
           <h2>Web Design</h2>
           <p>
@@ -30,6 +31,7 @@ export default function Home() {
             width={330}
             height={285}
             alt="image for Express"
+            priority
           />
           <div className={styles.text}>
             <h3>EXPRESS</h3>
@@ -121,7 +123,7 @@ export default function Home() {
 
       <section className={styles.designcontainer}>
         <div className={styles.appdesign}>
-          <Link className={styles.designlink} href="/design">
+          <Link className={styles.designlink} href="/design#app">
             <h3>APP DESIGN</h3>
             <p>
               VIEW PROJECTS <span className={styles.span}> {">"} </span>
@@ -130,7 +132,7 @@ export default function Home() {
         </div>
 
         <div className={styles.graphicdesign}>
-          <Link className={styles.designlink} href="/graphics">
+          <Link className={styles.designlink} href="/graphics#graphics">
             <h3>GRAPHIC DESIGN</h3>
             <p>
               VIEW PROJECTS <span className={styles.span}> {">"} </span>
